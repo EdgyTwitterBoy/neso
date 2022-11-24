@@ -50,12 +50,12 @@ img {
     
     position: absolute;
     transition: all 0.2s linear;
-    backdrop-filter: blur(0) grayscale(100%);
+    backdrop-filter: blur(4px) grayscale(100%);
     background-color: rgba(0, 0, 0, 0.69);
 }
 
 .center:hover {
-    backdrop-filter: blur(4px) grayscale(0);
+    backdrop-filter: blur(0px) grayscale(0);
     background-color: rgba(0, 0, 0, 0.42);
     color: transparent;
 }
